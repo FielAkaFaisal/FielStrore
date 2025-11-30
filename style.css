@@ -1,0 +1,63 @@
+body {
+    background: #000;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 25px;
+}
+
+/* Tombol */
+.btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;   /* teks di tengah */
+    
+    width: 90%;
+    max-width: 350px;
+    margin: 12px auto;
+    padding: 15px 0;
+
+    background: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+/* Icon di kiri */
+.icon {
+    position: absolute;
+    left: 15px;     /* jarak icon dari kiri */
+    width: 22px;
+    height: 22px;
+}
+
+/* Teks tetap di tengah */
+.label {
+    pointer-events: none;
+}
+
+/* Sosmed */
+.social img{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.soc {
+    width: 35px;
+}
